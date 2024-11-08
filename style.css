@@ -1,0 +1,93 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-link {
+    color: #fff;
+    transition: color 0.2s;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #e9ecef;
+    border-radius: 8px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p.lead {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn-primary {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+}
+
+/* Login section */
+.login {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ced4da;
+}
+
+.login h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #495057;
+    margin-bottom: 20px;
+}
+
+.login .form-label {
+    font-weight: 600;
+    color: #495057;
+}
+
+.login .form-control {
+    border-radius: 5px;
+}
+
+.login .btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
